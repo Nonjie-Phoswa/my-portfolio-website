@@ -4,6 +4,7 @@ import Typed from 'typed.js';
 @Component({
   selector: 'app-home',
   templateUrl: './home.html',
+  styleUrls: ['./home.css'],
 })
 export class Home implements AfterViewInit {
   ngAfterViewInit() {

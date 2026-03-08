@@ -1,4 +1,5 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit, Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import Typed from 'typed.js';
 
 @Component({
@@ -7,15 +8,20 @@ import Typed from 'typed.js';
   styleUrls: ['./home.css'],
 })
 export class Home implements AfterViewInit {
-  ngAfterViewInit() {
-    const options = {
-      strings: ['Web Developer', 'Frontend Developer', 'Mobile Developer', 'Software Engineer'],
-      typeSpeed: 80,
-      backSpeed: 40,
-      backDelay: 1500,
-      loop: true,
-    };
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
-    new Typed('#typed-text', options);
+  ngAfterViewInit() {
+    // only initialize Typed.js in the browser where `document` is available
+    if (isPlatformBrowser(this.platformId)) {
+      const options = {
+        strings: ['Web Developer', 'Frontend Developer', 'Mobile Developer', 'Software Engineer'],
+        typeSpeed: 80,
+        backSpeed: 40,
+        backDelay: 1500,
+        loop: true,
+      };
+
+      new Typed('#typed-text', options);
+    }
   }
 }

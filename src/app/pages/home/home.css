@@ -1,0 +1,36 @@
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: #ffb6c1;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.resume-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  background: #ffb6c1;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}

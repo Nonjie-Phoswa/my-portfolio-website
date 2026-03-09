@@ -6,9 +6,8 @@
   background-color: black;
 }
 
-.logo {
-  color: #ffb6c1;
-  font-size: 24px;
+.logo img {
+  width: 60px;
 }
 
 .nav-links {

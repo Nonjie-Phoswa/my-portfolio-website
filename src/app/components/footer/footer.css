@@ -11,7 +11,8 @@
   flex-wrap: wrap;
 }
 
-.footer h2, .footer h4 {
+.footer h2,
+.footer h4 {
   margin-bottom: 10px;
 }
 
@@ -21,10 +22,12 @@
   text-decoration: none;
   margin: 5px 0;
   transition: 0.3s;
+  gap: 20px;
 }
 
 .footer a:hover {
   color: orange;
+  text-shadow: 0 0 10px #ff9a9e;
 }
 
 .footer-bottom {

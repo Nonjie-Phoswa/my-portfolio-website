@@ -3,15 +3,13 @@
 }
 
 .hero {
-  /* Min-height and padding ensure no overlap with navbar/footer */
-  min-height: calc(100vh - 80px); /* Accounts for potential header height */
+ 
+  min-height: calc(100vh - 80px); 
   padding: 80px 5%;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* Sunset gradient applies perfectly correctly on the section */
   background: linear-gradient(to bottom, #ff9966, #ff5e62, #6a11cb, #2575fc);
   color: white;
 }
@@ -24,7 +22,7 @@
   width: 100%;
   gap: 40px;
 
-  /* Glassmorphism panel for readability and modern aesthetic */
+  /* Glassmorphism panel */
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
   padding: 40px;
@@ -55,7 +53,6 @@
   line-height: 1.6;
 }
 
-/* Styling for the image */
 .hero-image img {
   width: 250px;
   height: 250px;
@@ -64,7 +61,6 @@
   border: 4px solid white;
 }
 
-/* Desktop Layout: text on left, image on right */
 @media (min-width: 900px) {
   .hero-content {
     flex-direction: row;
@@ -74,7 +70,7 @@
 
   .hero-image {
     flex-shrink: 0;
-    margin-left: 40px; /* Space between text and image */
+    margin-left: 40px; 
   }
 
   .hero-image img {

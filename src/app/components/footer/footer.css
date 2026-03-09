@@ -1,7 +1,8 @@
 .footer {
   background: #111;
   color: white;
-
+  position: relative;
+  z-index: 10;
 }
 
 .footer-container {
@@ -10,7 +11,7 @@
   flex-wrap: wrap;
 }
 
-.footer h3, .footer h4 {
+.footer h2, .footer h4 {
   margin-bottom: 10px;
 }
 

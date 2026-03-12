@@ -1,5 +1,5 @@
 .footer {
-  background: #111;
+  background: #000000;
   color: white;
   position: relative;
   z-index: 10;
@@ -17,6 +17,7 @@
 
 .footer-social {
   text-align: center;
+  font-size: large;
 }
 
 .footer a {

@@ -1,15 +1,17 @@
 <nav class="navbar">
-  <h2 class="logo"><img src="assets/portfolio logo.jpg" alt="Profile logo" /></h2>
+  <h2 class="logo"><img src="assets\portfolio logo.png" alt="Profile logo" /></h2>
 
   <ul class="nav-links">
-    <li><a routerLink="/">Home</a></li>
-    <li><a routerLink="/about">About</a></li>
-    <li><a routerLink="/projects">Projects</a></li>
-    <li><a routerLink="/certificates">Certificates</a></li>
-    <li><a routerLink="/experience">Experience</a></li>
-    <li><a routerLink="/education">Education</a></li>
+    <li>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    </li>
+    <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+    <li><a routerLink="/projects" routerLinkActive="active">Projects</a></li>
+    <li><a routerLink="/certificates" routerLinkActive="active">Certificates</a></li>
+    <li><a routerLink="/experience" routerLinkActive="active">Experience</a></li>
+    <li><a routerLink="/education" routerLinkActive="active">Education</a></li>
   </ul>
-  
+
   <a href="assets/Nonjabulo_Phoswa_CV_Software_&_Digital.pdf" download class="resume-btn">
     Download CV
   </a>

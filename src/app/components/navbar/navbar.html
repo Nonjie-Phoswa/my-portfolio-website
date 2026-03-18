@@ -1,18 +1,24 @@
 <nav class="navbar">
   <h2 class="logo"><img src="assets\portfolio logo.png" alt="Profile logo" /></h2>
 
-  <ul class="nav-links">
+  <div class="hamburger" (click)="toggleMenu()" [class.active]="isMenuOpen">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+
+  <ul class="nav-links" [class.active]="isMenuOpen">
     <li>
-      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()">Home</a>
     </li>
-    <li><a routerLink="/about" routerLinkActive="active">About</a></li>
-    <li><a routerLink="/projects" routerLinkActive="active">Projects</a></li>
-    <li><a routerLink="/certificates" routerLinkActive="active">Certificates</a></li>
-    <li><a routerLink="/experience" routerLinkActive="active">Experience</a></li>
-    <li><a routerLink="/education" routerLinkActive="active">Education</a></li>
+    <li><a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">About</a></li>
+    <li><a routerLink="/projects" routerLinkActive="active" (click)="closeMenu()">Projects</a></li>
+    <li><a routerLink="/certificates" routerLinkActive="active" (click)="closeMenu()">Certificates</a></li>
+    <li><a routerLink="/experience" routerLinkActive="active" (click)="closeMenu()">Experience</a></li>
+    <li><a routerLink="/education" routerLinkActive="active" (click)="closeMenu()">Education</a></li>
   </ul>
 
-  <a href="assets/Nonjabulo_Phoswa_CV_Software_&_Digital.pdf" download class="resume-btn">
+  <a href="assets/Nonjabulo_Phoswa_CV_Software_&_Digital.pdf" download class="resume-btn" (click)="closeMenu()">
     Download CV
   </a>
 </nav>

@@ -1,23 +1,283 @@
-<section class="hero">
-  <div class="hero-content">
-    <div class="hero-image">
-      <img src="assets/profile.jpg" alt="Profile picture" />
-    </div>
-    <div class="hero-text">
-      <h1>About Me</h1>
+<section class="about-section">
+  <!-- Animated background (same as home page for consistency) -->
+  <div class="gradient-bg">
+    <div class="gradient-sphere sphere-1"></div>
+    <div class="gradient-sphere sphere-2"></div>
+    <div class="gradient-sphere sphere-3"></div>
+    <div class="gradient-sphere sphere-4"></div>
+    <div class="noise-overlay"></div>
+  </div>
 
-      <p>
-        I am a graduate Software Engineer from WeThinkCode_ with a background in Financial Science.
-        This unique blend of disciplines equips me with both strong technical development skills and
-        a deep understanding of analytical thinking, problem-solving and data-driven decision
-        making. By combining software engineering with financial and analytical insight, I bring the
-        ability to design solutions that are not only technically sound but also strategically
-        aligned with real-world industry challenges. I am on a clear mission to pioneer innovative
-        technological solutions that do more than optimise efficiency. I aim to contribute to
-        systems and platforms that fundamentally transform and revolutionise how industries operate.
-      </p>
-      <h1>My Skills</h1>
+  <div class="container">
+    <!-- Section Header -->
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-subtitle">Get to know me</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="title-line"></div>
+    </div>
+
+    <!-- Professional Summary -->
+    <div class="summary-card" data-aos="fade-up" data-aos-delay="100">
+      <div class="summary-content">
+        <div class="quote-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M10 11h-4v-4h4v4zm8 0h-4v-4h4v4zm-8 6h-4v-4h4v4zm8 0h-4v-4h4v4z"/>
+          </svg>
+        </div>
+        <p class="summary-text">
+          A detail-oriented software development graduate from WeThinkCode_, with a foundation in Financial Science
+          and hands-on experience in web and mobile development. I started my coding journey through SheCodes,
+          building strong front-end skills and further strengthened my backend and mobile development skills through
+          WeThinkCode_ projects and electives. I also gained practical experience with some cloud technologies and
+          completed a generative AI course to expand my knowledge in emerging technologies. I am eager to apply my
+          skills in a real-world environment and grow across different areas of the software stack.
+        </p>
+      </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="stats-grid" data-aos="fade-up" data-aos-delay="200">
+      <div class="stat-item">
+        <div class="stat-number">3+</div>
+        <div class="stat-label">Years Coding</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">20+</div>
+        <div class="stat-label">Projects</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">5</div>
+        <div class="stat-label">Programming Languages</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">10+</div>
+        <div class="stat-label">Technologies</div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills-section" data-aos="fade-up" data-aos-delay="300">
+      <h3 class="section-subheading">Technical Skills</h3>
+      <div class="skills-grid">
+        <!-- Programming Languages Card -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
+                </svg>
+              </div>
+              <h4>Programming Languages</h4>
+              <p class="card-hint">Hover to explore →</p>
+            </div>
+            <div class="flip-card-back">
+              <h4>Languages</h4>
+              <ul class="skill-list">
+                <li>Python</li>
+                <li>Java</li>
+                <li>Dart</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Databases Card -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                </svg>
+              </div>
+              <h4>Databases</h4>
+              <p class="card-hint">Hover to explore →</p>
+            </div>
+            <div class="flip-card-back">
+              <h4>Database Technologies</h4>
+              <ul class="skill-list">
+                <li>MySQL</li>
+                <li>SQLite</li>
+                <li>Firestore</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks & Tools Card -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/>
+                </svg>
+              </div>
+              <h4>Frameworks & Tools</h4>
+              <p class="card-hint">Hover to explore →</p>
+            </div>
+            <div class="flip-card-back">
+              <h4>Technologies</h4>
+              <ul class="skill-list">
+                <li>Flutter</li>
+                <li>Angular</li>
+                <li>Firebase</li>
+                <li>Git/GitHub</li>
+                <li>VS Code</li>
+                <li>IntelliJ IDEA</li>
+                <li>Cursor</li>
+                <li>Android Studio</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI & Automation Card -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
+              <h4>AI & Automation</h4>
+              <p class="card-hint">Hover to explore →</p>
+            </div>
+            <div class="flip-card-back">
+              <h4>AI Expertise</h4>
+              <ul class="skill-list">
+                <li>Generative AI</li>
+                <li>OpenAI</li>
+                <li>Prompt Engineering</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deployment Card -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12z"/>
+                </svg>
+              </div>
+              <h4>Deployment</h4>
+              <p class="card-hint">Hover to explore →</p>
+            </div>
+            <div class="flip-card-back">
+              <h4>Deployment Platforms</h4>
+              <ul class="skill-list">
+                <li>Netlify</li>
+                <li>Firebase Hosting</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other Skills Card -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="card-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
+              <h4>Other Skills</h4>
+              <p class="card-hint">Hover to explore →</p>
+            </div>
+            <div class="flip-card-back">
+              <h4>Additional Skills</h4>
+              <ul class="skill-list">
+                <li>Agile Development</li>
+                <li>Object-Oriented Programming</li>
+                <li>Test-Driven Development</li>
+                <li>API Integration</li>
+                <li>Version Control</li>
+                <li>Basic Graphic Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="soft-skills-section" data-aos="fade-up" data-aos-delay="400">
+      <h3 class="section-subheading">Soft Skills</h3>
+      <div class="soft-skills-grid">
+        <div class="soft-skill-item">
+          <span class="soft-skill-tag">Problem-solving</span>
+        </div>
+        <div class="soft-skill-item">
+          <span class="soft-skill-tag">Adaptability</span>
+        </div>
+        <div class="soft-skill-item">
+          <span class="soft-skill-tag">Communication</span>
+        </div>
+        <div class="soft-skill-item">
+          <span class="soft-skill-tag">Teamwork</span>
+        </div>
+        <div class="soft-skill-item">
+          <span class="soft-skill-tag">First Aid Level 3</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interests Section -->
+    <div class="interests-section" data-aos="fade-up" data-aos-delay="500">
+      <h3 class="section-subheading">Interests & Passions</h3>
+      <div class="interests-grid">
+        <!-- Digital Content Creation -->
+        <div class="interest-card">
+          <div class="interest-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zM9 8h2v8H9zm4 0h2v8h-2z"/>
+            </svg>
+          </div>
+          <h4>Digital Content Creation</h4>
+          <p>Creating engaging content and exploring creative digital media</p>
+        </div>
+
+        <!-- Hiking and Camping -->
+        <div class="interest-card">
+          <div class="interest-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L4 8v8l8 6 8-6V8l-8-6zm0 2l6 4.5v7L12 20l-6-4.5v-7L12 4zm0 2v13l-4-3v-5l4-3z"/>
+            </svg>
+          </div>
+          <h4>Hiking & Camping</h4>
+          <p>Exploring nature, outdoor adventures, and camping under the stars</p>
+        </div>
+
+        <!-- Baking and Cooking -->
+        <div class="interest-card">
+          <div class="interest-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M11.5 9L10 6.5 11.5 4 13 6.5 11.5 9zm5 0L15 6.5 16.5 4 18 6.5 16.5 9zm-10 0L5 6.5 6.5 4 8 6.5 6.5 9zM19 14c-1.5 0-3.5-1-4-2-1 1-2.5 2-5 2s-4-1-5-2c-.5 1-2.5 2-4 2-1.5 0-3 .5-3 2v2h20v-2c0-1.5-1.5-2-3-2z"/>
+            </svg>
+          </div>
+          <h4>Baking & Cooking</h4>
+          <p>Experimenting with recipes and creating delicious meals</p>
+        </div>
+
+        <!-- Community Service -->
+        <div class="interest-card">
+          <div class="interest-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+            </svg>
+          </div>
+          <h4>Community Service</h4>
+          <p>Giving back and making a positive impact in the community</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-

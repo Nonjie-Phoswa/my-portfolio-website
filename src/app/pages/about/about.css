@@ -66,7 +66,7 @@
 
 /* Summary Card */
 .summary-card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(26, 25, 25, 0.204);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
@@ -112,7 +112,7 @@
 }
 
 .stat-item {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(26, 25, 25, 0.204);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
@@ -172,7 +172,7 @@
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  gap: 40px;
 }
 
 /* Flip Card Styles */
@@ -181,6 +181,7 @@
   width: 100%;
   height: 300px;
   perspective: 2000px;
+  margin-bottom: 20px;
 }
 
 .flip-card-inner {
@@ -200,6 +201,9 @@
 .flip-card-front,
 .flip-card-back {
   position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
@@ -210,7 +214,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(26, 25, 25, 0.204);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -294,7 +298,7 @@
 .soft-skill-tag {
   display: inline-block;
   padding: 12px 24px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(26, 25, 25, 0.204);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 50px;
@@ -323,7 +327,7 @@
 }
 
 .interest-card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(26, 25, 25, 0.204);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;

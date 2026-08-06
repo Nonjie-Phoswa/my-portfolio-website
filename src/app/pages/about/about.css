@@ -165,7 +165,7 @@
 }
 
 .stat-item {
-  background: rgba(26, 25, 25, 0.204);
+  background: rgba(25, 25, 26, 0.204);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
@@ -267,7 +267,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgba(26, 25, 25, 0.204);
+  background: rgba(25, 26, 26, 0.204);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -351,7 +351,7 @@
 .soft-skill-tag {
   display: inline-block;
   padding: 12px 24px;
-  background: rgba(26, 25, 25, 0.204);
+  background: rgba(25, 26, 26, 0.204);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 50px;
@@ -365,7 +365,7 @@
   transform: translateY(-3px);
   background: linear-gradient(135deg, #4a85d7, #8dd2fd);
   border-color: transparent;
-  box-shadow: 0 10px 20px rgba(255, 107, 107, 0.3);
+  box-shadow: 0 10px 20px rgba(107, 191, 255, 0.3);
 }
 
 /* Interests Section */
@@ -380,7 +380,7 @@
 }
 
 .interest-card {
-  background: rgba(26, 25, 25, 0.204);
+  background: rgba(25, 26, 26, 0.204);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
@@ -508,13 +508,13 @@
   }
 
   .flip-card-front h4 {
-    background: linear-gradient(135deg, #333, #666);
+    background: linear-gradient(135deg, #333333, #666666);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .soft-skill-tag {
-    color: #333;
+    color: #333333;
   }
 }
 

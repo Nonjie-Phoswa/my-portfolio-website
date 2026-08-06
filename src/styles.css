@@ -29,7 +29,7 @@ html, body {
 .sphere-1 {
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle at 30% 30%, #ff6b6b, #4ecdc4);
+  background: radial-gradient(circle at 30% 30%, #585bee, #4e9ccd);
   top: -100px;
   left: -100px;
   animation-delay: 0s;
@@ -38,7 +38,7 @@ html, body {
 .sphere-2 {
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle at 70% 70%, #a8e6cf, #ffd3b6);
+  background: radial-gradient(circle at 70% 70%, #a8bae6, #2d3fb1);
   bottom: -200px;
   right: -100px;
   animation-delay: -5s;
@@ -47,7 +47,7 @@ html, body {
 .sphere-3 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle at 40% 40%, #ffaaa5, #a8e6cf);
+  background: radial-gradient(circle at 40% 40%, #1d547e, #58a4d8);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -57,7 +57,7 @@ html, body {
 .sphere-4 {
   width: 350px;
   height: 350px;
-  background: radial-gradient(circle at 60% 60%, #ffd3b6, #ff8b94);
+  background: radial-gradient(circle at 60% 60%, #3285ca, #ff8b94);
   bottom: 20%;
   left: 10%;
   animation-delay: -15s;

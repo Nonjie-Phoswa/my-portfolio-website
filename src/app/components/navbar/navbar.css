@@ -29,25 +29,47 @@
 }
 
 .nav-links a:hover {
-  color: #ffb6c1;
+  color: #4a85d7;
 }
 
 .nav-links a.active {
-  border-bottom: 2px solid #ff9a9e;
+  border-bottom: 2px solid #4a85d7;
 }
 
 .resume-btn {
-  padding: 10px 20px;
-  background: #ffb6c1;
-  color: black;
+  color: rgb(243, 242, 242);
+  bottom: 20px;
+  right: 0;
+  background: #3365ac;
+  backdrop-filter: blur(10px);
   text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  white-space: nowrap;
+  animation: badgeSlideIn 0.5s ease-out 0.5s both;
   transition: 0.3s;
 }
 
 .resume-btn:hover {
-  background: darkorange;
+  background: white;
+  color: #3365ac;
+}
+
+
+@keyframes badgeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .hamburger {

@@ -101,7 +101,7 @@
 #typed-text {
   font-size: 1.8rem;
   font-weight: 600;
-  background: linear-gradient(135deg, #f5f5f5, #cc8da2);
+  background: linear-gradient(135deg, #f5f5f5, #4a85d7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -285,7 +285,7 @@
 .scroll-line {
   width: 2px;
   height: 50px;
-  background: linear-gradient(to bottom, #ff6b6b, #4ecdc4, transparent);
+  background: linear-gradient(to bottom,#4a85d7, #8dd2fd, transparent);
   animation: scrollLine 2s ease-in-out infinite;
 }
 

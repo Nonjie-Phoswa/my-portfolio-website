@@ -50,7 +50,7 @@
   font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 800;
   margin: 0 0 20px;
-  background: linear-gradient(135deg, #fff, #ffd3b6);
+  background: linear-gradient(135deg, #fff, #8dd2fd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -59,7 +59,7 @@
 .title-line {
   width: 80px;
   height: 4px;
-  background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+  background: linear-gradient(90deg, #4a85d7, #8dd2fd);
   margin: 0 auto;
   border-radius: 2px;
 }
@@ -129,7 +129,7 @@
 .stat-number {
   font-size: 2.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+  background: linear-gradient(135deg, #4a85d7, #8dd2fd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -160,7 +160,7 @@
   left: 0;
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+  background: linear-gradient(90deg, #4a85d7, #8dd2fd);
   border-radius: 2px;
 }
 
@@ -225,7 +225,7 @@
 }
 
 .flip-card-back {
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.2), rgba(78, 205, 196, 0.2));
+  background: linear-gradient(135deg, rgba(107, 174, 255, 0.2), rgba(78, 205, 196, 0.2));
   backdrop-filter: blur(10px);
   transform: rotateY(180deg);
   overflow-y: auto;
@@ -235,7 +235,7 @@
   font-size: 1.3rem;
   margin-bottom: 20px;
   color: white;
-  border-bottom: 2px solid rgba(255, 107, 107, 0.5);
+  border-bottom: 2px solid rgba(107, 169, 255, 0.5);
   padding-bottom: 10px;
 }
 
@@ -243,7 +243,7 @@
   width: 60px;
   height: 60px;
   margin-bottom: 20px;
-  color: #ff6b6b;
+  color: #4a85d7;
 }
 
 .card-icon svg {
@@ -254,7 +254,7 @@
 .flip-card-front h4 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  background: linear-gradient(135deg, #fff, #ffd3b6);
+  background: linear-gradient(135deg, #fff, #8dd2fd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -310,7 +310,7 @@
 
 .soft-skill-tag:hover {
   transform: translateY(-3px);
-  background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+  background: linear-gradient(135deg, #4a85d7, #8dd2fd);
   border-color: transparent;
   box-shadow: 0 10px 20px rgba(255, 107, 107, 0.3);
 }
@@ -339,14 +339,14 @@
 .interest-card:hover {
   transform: translateY(-10px);
   background: rgba(255, 255, 255, 0.1);
-  border-color: #ff6b6b;
+  border-color: #4a85d7;
 }
 
 .interest-icon {
   width: 50px;
   height: 50px;
   margin: 0 auto 20px;
-  color: #ff6b6b;
+  color: #4a85d7;
 }
 
 .interest-card h4 {
@@ -488,6 +488,6 @@
 }
 
 .flip-card-back::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+  background: linear-gradient(135deg, #4a85d7, #8dd2fd);
   border-radius: 10px;
 }

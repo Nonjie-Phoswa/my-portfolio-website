@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(255, 255, 255);
   z-index: 1;
 }
 
@@ -54,7 +54,7 @@
 .greeting-line {
   width: 50px;
   height: 2px;
-  background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+  background: linear-gradient(90deg,  #4a85d7, #4ecdc4);
   border-radius: 2px;
 }
 
@@ -71,7 +71,7 @@
   font-size: clamp(2.5rem, 8vw, 5rem);
   font-weight: 800;
   margin: 10px 0 15px;
-  background: linear-gradient(135deg, #fff, #ffd3b6);
+  background: linear-gradient(135deg, #ffffff, #ffd3b6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -109,7 +109,7 @@
 
 .typed-cursor {
   font-size: 1.8rem;
-  color: #fff;
+  color: #ffffff;
   animation: blink 1s infinite;
 }
 
@@ -132,7 +132,7 @@
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.8);
   padding: 10px 20px;
-  background: rgba(26, 25, 25, 0.204);
+  background: rgba(25, 26, 26, 0.204);
   border-radius: 50px;
   width: fit-content;
   backdrop-filter: blur(5px);
@@ -235,7 +235,7 @@
 .pulse-dot {
   width: 10px;
   height: 10px;
-  background: #4ade80;
+  background:  #64b2e7;
   border-radius: 50%;
   position: relative;
 }
@@ -416,19 +416,19 @@
   }
 
   .btn-outline {
-    color: #333;
+    color: #333333;
     border-color: rgba(0, 0, 0, 0.2);
   }
 
   .social-link {
     background: rgba(0, 0, 0, 0.05);
     border-color: rgba(0, 0, 0, 0.1);
-    color: #333;
+    color: #333333;
   }
 
   .availability-badge {
     background: rgba(255, 255, 255, 0.9);
-    color: #333;
+    color: #333333;
     border-color: rgba(0, 0, 0, 0.1);
   }
 }

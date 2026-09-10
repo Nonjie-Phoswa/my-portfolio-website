@@ -169,6 +169,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
+  display: block;
   transition: transform 0.5s ease;
 }
 
@@ -194,14 +196,12 @@
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
-}
-
-.hero-image img {
-  width: 350px;
-  height: 350px;
 }
 
 .availability-badge {
@@ -347,6 +347,19 @@
     height: 250px;
   }
 
+  .hero-text {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .greeting-wrapper,
+  .title-wrapper {
+    justify-content: center;
+  }
+
   .greeting {
     font-size: 1rem;
   }
@@ -358,6 +371,11 @@
   .title-prefix,
   #typed-text {
     font-size: 1.4rem;
+  }
+
+  .location {
+    margin: 30px auto 0;
+    justify-content: center;
   }
 
   .cta-buttons {

@@ -382,6 +382,8 @@
 
 /* Certificate Card */
 .certificate-card {
+  max-width: 360px;
+  width: 100%;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -475,10 +477,25 @@
 }
 
 /* Certificate Ribbon */
+.certificate-ribbons {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+  max-width: calc(100% - 30px);
+  z-index: 2;
+}
+
 .certificate-ribbon {
   position: absolute;
   top: 15px;
   right: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 6px 14px;
   background: linear-gradient(135deg, #3B82F6, #0EA5E9);
   border-radius: 20px;
@@ -488,6 +505,10 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.certificate-ribbons .certificate-ribbon {
+  position: static;
 }
 
 .certificate-ribbon.cloud {
@@ -603,8 +624,17 @@
 }
 
 .stat-icon {
-  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 10px;
+  color: #93C5FD;
+}
+
+.stat-icon svg {
+  width: 32px;
+  height: 32px;
+  display: block;
 }
 
 .stat-number {

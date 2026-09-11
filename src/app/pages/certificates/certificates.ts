@@ -21,23 +21,26 @@ export class Certificates implements AfterViewInit {
 
     filterButtons.forEach(button => {
       button.addEventListener('click', () => {
-        const filter = button.getAttribute('data-filter');
+        const filter = button.getAttribute('data-filter') ?? 'all';
 
-        // Update active state
-        filterButtons.forEach(btn => btn.classList.remove('active'));
-        button.classList.add('active');
+        filterButtons.forEach(btn => {
+          btn.classList.toggle('active', btn === button);
+        });
 
-        // Filter cards with smooth animation
         certificateCards.forEach(card => {
-          const category = card.getAttribute('data-category');
           const element = card as HTMLElement;
+          const categories = (
+            element.getAttribute('data-categories') ??
+            element.getAttribute('data-category') ??
+            ''
+          )
+            .split(/\s+/)
+            .filter(Boolean);
 
-          if (filter === 'all' || category === filter) {
-            element.classList.remove('hidden');
-            element.style.animation = 'fadeIn 0.5s ease forwards';
-          } else {
-            element.classList.add('hidden');
-          }
+          const matches = filter === 'all' || categories.includes(filter);
+
+          element.classList.toggle('hidden', !matches);
+          element.style.animation = matches ? 'fadeIn 0.5s ease forwards' : 'none';
         });
       });
     });

@@ -1,7 +1,21 @@
 .footer {
+  position: relative;
   color: white;
   z-index: 10;
   bottom: 0;
+  padding: 30px 5% 20px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  pointer-events: none;
 }
 
 .footer-container {
@@ -50,7 +64,7 @@
   .footer-social {
     margin-bottom: 20px;
   }
-  
+
   .footer a {
     margin: 5px 10px;
   }
